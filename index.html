@@ -1,0 +1,861 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VK Enterprises - Premium Electrical & Lighting Solutions in Dehradun</title>
+  <meta name="description" content="VK Enterprises is Dehradun's trusted destination for premium electrical products, decorative lighting, modular switches, wiring, fans, LEDs, and smart electrical solutions." />
+  <meta name="keywords" content="VK Enterprises, electrical shop Dehradun, lighting solutions Dehradun, decorative lights, modular switches, premium wiring, LED lights, smart electrical products, Jaquar, Legrand, Polycab, KEI, Schneider Electric, Lauritz Knudsen" />
+  <meta name="author" content="VK Enterprises" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#111827" />
+  <meta name="format-detection" content="telephone=yes" />
+  <meta name="geo.region" content="IN-UK" />
+  <meta name="geo.placename" content="Dehradun, Uttarakhand" />
+
+  <meta property="og:type" content="business.business" />
+  <meta property="og:site_name" content="VK Enterprises" />
+  <meta property="og:title" content="VK Enterprises - Premium Electrical & Lighting Solutions" />
+  <meta property="og:description" content="Premium electrical products, decorative lights, modular switches, wiring, fans, LEDs, and smart electrical solutions in Dehradun." />
+  <meta property="og:image" content="Light-Chandelier.webp" />
+  <meta property="og:locale" content="en_IN" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VK Enterprises - Premium Electrical & Lighting Solutions" />
+  <meta name="twitter:description" content="Dehradun's trusted supplier for premium electrical products, lighting, wiring, switches, LEDs, and smart electrical solutions." />
+  <meta name="twitter:image" content="Light-Chandelier.webp" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "VK Enterprises",
+    "description": "Premium electrical and decorative lighting solutions in Dehradun, including modular switches, wiring, fans, LED lights, smart electrical products, and modern home lighting systems.",
+    "image": "Light-Chandelier.webp",
+    "telephone": ["+91-81261-61656", "+91-90840-61656"],
+    "email": "vkenterprises251123@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "169, Prakash Nagar, Near Yamuna Colony, Govind Garh",
+      "addressLocality": "Dehradun",
+      "addressRegion": "Uttarakhand",
+      "addressCountry": "IN"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Dehradun"
+    },
+    "brand": [
+      { "@type": "Brand", "name": "Jaquar" },
+      { "@type": "Brand", "name": "Legrand" },
+      { "@type": "Brand", "name": "Polycab" },
+      { "@type": "Brand", "name": "KEI" },
+      { "@type": "Brand", "name": "Schneider Electric" },
+      { "@type": "Brand", "name": "Lauritz Knudsen" }
+    ],
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Electrical Products" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Decorative Lighting" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Modular Switches and Wiring" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "LED and Smart Electrical Solutions" } }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================
+       LOADING SCREEN
+  ============================= -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">VK</div>
+      <div class="loader-tagline">ENTERPRISES</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ============================
+       CUSTOM CURSOR
+  ============================= -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ============================
+       NAVBAR
+  ============================= -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" onclick="navigateTo('hero'); return false;">
+        <span class="logo-vk">VK</span>
+        <span class="logo-ent">Enterprises</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#" class="nav-link active" data-page="hero" onclick="navigateTo('hero'); return false;">Home</a></li>
+        <li><a href="#" class="nav-link" data-page="about" onclick="navigateTo('about'); return false;">About</a></li>
+        <li><a href="#" class="nav-link" data-page="services" onclick="navigateTo('services'); return false;">Services</a></li>
+        <li><a href="#" class="nav-link" data-page="why" onclick="navigateTo('why'); return false;">Why Us</a></li>
+        <li><a href="#" class="nav-link" data-page="brands" onclick="navigateTo('brands'); return false;">Brands</a></li>
+        <li><a href="#" class="nav-link" data-page="gallery" onclick="navigateTo('gallery'); return false;">Gallery</a></li>
+        <li><a href="#" class="nav-link" data-page="contact" onclick="navigateTo('contact'); return false;">Contact</a></li>
+      </ul>
+      <a href="tel:8126161656" class="nav-cta">
+        <i class="fas fa-phone"></i> Call Now
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#" class="mobile-nav-link active" data-page="hero" onclick="navigateTo('hero'); closeMobileMenu(); return false;">Home</a>
+      <a href="#" class="mobile-nav-link" data-page="about" onclick="navigateTo('about'); closeMobileMenu(); return false;">About</a>
+      <a href="#" class="mobile-nav-link" data-page="services" onclick="navigateTo('services'); closeMobileMenu(); return false;">Services</a>
+      <a href="#" class="mobile-nav-link" data-page="why" onclick="navigateTo('why'); closeMobileMenu(); return false;">Why Us</a>
+      <a href="#" class="mobile-nav-link" data-page="brands" onclick="navigateTo('brands'); closeMobileMenu(); return false;">Brands</a>
+      <a href="#" class="mobile-nav-link" data-page="gallery" onclick="navigateTo('gallery'); closeMobileMenu(); return false;">Gallery</a>
+      <a href="#" class="mobile-nav-link" data-page="contact" onclick="navigateTo('contact'); closeMobileMenu(); return false;">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ============================
+       SECTION NAVIGATION
+  ============================= -->
+  <aside class="section-nav" aria-label="Section navigation">
+    <a href="#" class="section-nav-link active" aria-label="Hero" data-page="hero" onclick="navigateTo('hero'); return false;">
+      <i class="fas fa-house"></i>
+      <span>Home</span>
+    </a>
+    <a href="#" class="section-nav-link" aria-label="About" data-page="about" onclick="navigateTo('about'); return false;">
+      <i class="fas fa-circle-info"></i>
+      <span>About</span>
+    </a>
+    <a href="#" class="section-nav-link" aria-label="Services" data-page="services" onclick="navigateTo('services'); return false;">
+      <i class="fas fa-bolt"></i>
+      <span>Services</span>
+    </a>
+    <a href="#" class="section-nav-link" aria-label="Why Us" data-page="why" onclick="navigateTo('why'); return false;">
+      <i class="fas fa-award"></i>
+      <span>Why Us</span>
+    </a>
+    <a href="#" class="section-nav-link" aria-label="Brands" data-page="brands" onclick="navigateTo('brands'); return false;">
+      <i class="fas fa-handshake"></i>
+      <span>Brands</span>
+    </a>
+    <a href="#" class="section-nav-link" aria-label="Gallery" data-page="gallery" onclick="navigateTo('gallery'); return false;">
+      <i class="fas fa-images"></i>
+      <span>Gallery</span>
+    </a>
+    <a href="#" class="section-nav-link" aria-label="Contact" data-page="contact" onclick="navigateTo('contact'); return false;">
+      <i class="fas fa-paper-plane"></i>
+      <span>Contact</span>
+    </a>
+  </aside>
+
+  <!-- ============================
+       HERO SECTION
+  ============================= -->
+  <section id="hero">
+    <!-- Background canvas for particles -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Animated orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="electric-wave"></div>
+
+<div class="hero-content">
+  
+  <div class="hero-badge reveal-up">
+    <span class="badge-dot"></span>
+    Dehradun's #1 Trusted Electrical & Lighting Brand
+  </div>
+
+  <h1 class="hero-title reveal-up delay-1">
+    Premium <br/>
+    <span class="gold-gradient">Electrical</span> &amp;<br/>
+    <span class="gold-gradient">Lighting</span><br/>
+    Solutions
+  </h1>
+
+  <p class="hero-sub reveal-up delay-2">
+    Complete destination for decorative lights, modular switches,
+    premium wiring, fans, LED solutions, smart electrical products,
+    and modern home lighting systems.
+  </p>
+
+  <p class="hero-description reveal-up delay-3">
+    At VK Enterprises, we combine quality products, modern designs,
+    and trusted electrical expertise to help you build safer,
+    smarter, and more elegant spaces. From homes and offices to
+    commercial projects, we deliver reliable electrical solutions
+    tailored to your needs.
+  </p>
+
+  <div class="hero-highlights reveal-up delay-4">
+    <div class="highlight-item">
+      <i class="fas fa-check-circle"></i>
+      <span>Premium Quality Products</span>
+    </div>
+
+    <div class="highlight-item">
+      <i class="fas fa-check-circle"></i>
+      <span>Trusted Brands & Genuine Materials</span>
+    </div>
+
+    <div class="highlight-item">
+      <i class="fas fa-check-circle"></i>
+      <span>Decorative & Modern Lighting Collection</span>
+    </div>
+
+    <div class="highlight-item">
+      <i class="fas fa-check-circle"></i>
+      <span>Expert Guidance & Customer Support</span>
+    </div>
+  </div>
+
+  <p class="hero-tagline reveal-up delay-5">
+    "Decor &amp; Brighten Your Dream Home"
+  </p>
+
+  <div class="hero-buttons reveal-up delay-6">
+
+    <a href="tel:8126161656" class="btn-primary">
+      <i class="fas fa-phone"></i>
+      Call Now
+      <span class="btn-glow"></span>
+    </a>
+
+    <a href="https://wa.me/918126161656?text=Hi%20VK%20Enterprises%2C%20I%20need%20electrical%20services"
+       target="_blank"
+       class="btn-secondary">
+      <i class="fab fa-whatsapp"></i>
+      WhatsApp Inquiry
+    </a>
+
+  </div>
+
+</div>
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ============================
+       STATS STRIP
+  ============================= -->
+  <section class="stats-strip">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-num" data-target="500">0</span><span class="stat-plus">+</span>
+        <p>Happy Clients</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="1000">0</span><span class="stat-plus">+</span>
+        <p>Projects Done</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="10">0</span><span class="stat-plus">+</span>
+        <p>Years Experience</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="6">0</span><span class="stat-plus"></span>
+        <p>Premium Brands</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       ABOUT SECTION
+  ============================= -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-tag reveal-up">About VK Enterprises</div>
+      <h2 class="section-title reveal-up">
+        Illuminating Homes &<br/><span class="gold-gradient">Powering Businesses</span>
+      </h2>
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <p class="about-lead">
+            VK Enterprises, founded by <strong>Vishal Kashyap</strong>, is Dehradun's trusted destination for premium electrical and decorative lighting solutions.
+          </p>
+          <p>
+            Located in the heart of Govind Garh, we provide genuine branded products from top manufacturers including Jaquar, Legrand, Polycab, KEI, Schneider Electric, and Lauritz Knudsen. Whether it's a dream home project or a large commercial installation â€” we deliver excellence at every step.
+          </p>
+          <p>
+            From decorative chandeliers to MCB distribution panels, our comprehensive range ensures your space is both safe and stunningly beautiful.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-chip"><i class="fas fa-check-circle"></i> ISI Certified Products</div>
+            <div class="highlight-chip"><i class="fas fa-check-circle"></i> Home & Commercial</div>
+            <div class="highlight-chip"><i class="fas fa-check-circle"></i> Wholesale & Retail</div>
+            <div class="highlight-chip"><i class="fas fa-check-circle"></i> Expert Team</div>
+          </div>
+          <a href="#contact" class="btn-primary mt-3">
+            Get In Touch <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="about-cards reveal-right">
+          <div class="about-card glass-card">
+            <div class="about-card-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Electrical Solutions</h3>
+            <p>Complete wiring, MCB panels, gang boxes, and distribution solutions for safe, reliable power delivery.</p>
+          </div>
+          <div class="about-card glass-card shift-down">
+            <div class="about-card-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3>Decorative Lighting</h3>
+            <p>Luxury chandeliers, LED strips, pendant lights and smart lighting to transform any interior.</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="about-card-icon"><i class="fas fa-shield-alt"></i></div>
+            <h3>Genuine Brands</h3>
+            <p>Authorised dealer for Jaquar, Legrand, Polycab, KEI, Schneider Electric & Lauritz Knudsen â€” only genuine, certified products.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-reviews reveal-up">
+        <div class="section-tag">Client Stories</div>
+        <h2 class="section-title">
+          What Our <span class="gold-gradient">Clients Say</span>
+        </h2>
+
+        <div class="testimonial-slider">
+          <div class="testimonial-track" id="testimonialTrack">
+
+            <div class="testimonial-card glass-card">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              <p>"VK Enterprises completely transformed our home's lighting. Vishal's team was professional, prompt, and the quality of Jaquar fixtures they installed is absolutely stunning. Highly recommended!"</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">K</div>
+                <div>
+                  <strong>Kumar Sweets Shop</strong>
+                  <span>Commercial Client, Dehradun</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card glass-card">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              <p>"Got all the Polycab wiring and Legrand switches from VK Enterprises for my new office. Genuine products, great price, and delivered on time. Will be ordering again for our next project."</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">H</div>
+                <div>
+                  <strong>Home Stay</strong>
+                  <span>Hospitality Client</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card glass-card">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              <p>"Best electrical shop in Govind Garh area. They have everything - from MCB boxes to premium decorative lights. Vishal ji personally helped me choose the right products for my renovation."</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">V</div>
+                <div>
+                  <strong>Vipul Jain</strong>
+                  <span>Raymond Distributor</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card glass-card">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              <p>"We sourced all electrical materials for our hotel project from VK Enterprises. Bulk pricing was excellent and the quality of KEI cables is top-notch. Professional service throughout."</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">V</div>
+                <div>
+                  <strong>Vinod Tayal</strong>
+                  <span>Project Client</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card glass-card">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              <p>"VK Enterprises helped us choose reliable lighting and electrical materials with clear guidance. The product quality, pricing, and support made the whole process easy."</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">A</div>
+                <div>
+                  <strong>Atul Gupta</strong>
+                  <span>Residential Client</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card glass-card">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              <p>"Great collection of decorative lights, switches, and electrical products. The team understood our requirements and suggested practical options within budget."</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">P</div>
+                <div>
+                  <strong>Pritul Negi</strong>
+                  <span>Home Renovation Client</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="testimonial-controls">
+            <button class="t-btn" id="tPrev"><i class="fas fa-chevron-left"></i></button>
+            <div class="t-dots" id="tDots"></div>
+            <button class="t-btn" id="tNext"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       SERVICES SECTION
+  ============================= -->
+  <section id="services">
+    <div class="services-bg-glow"></div>
+    <div class="section-container">
+      <div class="section-tag reveal-up">What We Offer</div>
+      <h2 class="section-title reveal-up">
+        Our <span class="gold-gradient">Premium Services</span>
+      </h2>
+      <p class="section-sub reveal-up">End-to-end electrical and lighting solutions crafted with precision and quality.</p>
+      <div class="services-grid">
+
+        <div class="service-card glass-card reveal-up" data-tilt>
+          <div class="service-icon"><i class="fas fa-star"></i></div>
+          <div class="service-glow-border"></div>
+          <h3>Decorative Lights</h3>
+          <p>Chandeliers, LED strips, pendant lights, ceiling lights â€” luxury illumination for every space.</p>
+        </div>
+
+        <div class="service-card glass-card reveal-up delay-1" data-tilt>
+          <div class="service-icon"><i class="fas fa-toggle-on"></i></div>
+          <div class="service-glow-border"></div>
+          <h3>Electrical Switches</h3>
+          <p>Modular, premium and smart switch ranges from Legrand and Jaquar for modern interiors.</p>
+        </div>
+
+        <div class="service-card glass-card reveal-up delay-2" data-tilt>
+          <div class="service-icon"><i class="fas fa-wave-square"></i></div>
+          <div class="service-glow-border"></div>
+          <h3>Wiring Solutions</h3>
+          <p>Polycab & KEI fire-retardant wires for homes, offices and industrial installations.</p>
+        </div>
+
+        <div class="service-card glass-card reveal-up" data-tilt>
+          <div class="service-icon"><i class="fas fa-server"></i></div>
+          <div class="service-glow-border"></div>
+          <h3>MCB Distribution Boxes</h3>
+          <p>Safe and durable MCB panels and distribution boards for superior circuit protection.</p>
+        </div>
+
+        <div class="service-card glass-card reveal-up delay-1" data-tilt>
+          <div class="service-icon"><i class="fas fa-cube"></i></div>
+          <div class="service-glow-border"></div>
+          <h3>Metal Gang Boxes</h3>
+          <p>Heavy-duty concealed metal gang boxes for permanent, professional electrical installations.</p>
+        </div>
+
+        <div class="service-card glass-card reveal-up delay-2" data-tilt>
+          <div class="service-icon"><i class="fas fa-home"></i></div>
+          <div class="service-glow-border"></div>
+          <h3>Home Installation</h3>
+          <p>Complete residential electrical installation services â€” new builds and renovations.</p>
+        </div>
+
+        <div class="service-card glass-card reveal-up" data-tilt>
+          <div class="service-icon"><i class="fas fa-building"></i></div>
+          <div class="service-glow-border"></div>
+          <h3>Commercial Electrical</h3>
+          <p>Large-scale electrical work for shops, offices, malls, hotels and commercial complexes.</p>
+        </div>
+
+        <div class="service-card glass-card reveal-up delay-1 service-cta-card" data-tilt>
+          <div class="service-icon"><i class="fas fa-headset"></i></div>
+          <h3>Need a Custom Solution?</h3>
+          <p>Contact us for tailored electrical and lighting packages for your specific project.</p>
+          <a href="tel:8126161656" class="btn-primary sm-btn">Call Us Now</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       WHY CHOOSE US
+  ============================= -->
+  <section id="why">
+    <div class="section-container">
+      <div class="section-tag reveal-up">Why VK Enterprises</div>
+      <h2 class="section-title reveal-up">
+        The <span class="gold-gradient">Difference</span> We Deliver
+      </h2>
+      <div class="why-grid">
+
+        <div class="why-card reveal-up">
+          <div class="why-icon-wrap"><i class="fas fa-certificate"></i></div>
+          <h3>Genuine Branded Products</h3>
+          <p>Every product we sell is 100% genuine from authorised brand channels â€” no duplicates, ever.</p>
+        </div>
+
+        <div class="why-card reveal-up delay-1">
+          <div class="why-icon-wrap"><i class="fas fa-rocket"></i></div>
+          <h3>Fast Service</h3>
+          <p>Quick response times and rapid delivery, because your project timelines matter to us.</p>
+        </div>
+
+        <div class="why-card reveal-up delay-2">
+          <div class="why-icon-wrap"><i class="fas fa-shield-check"></i></div>
+          <h3>Quality Assurance</h3>
+          <p>Every installation and product sale is backed by our quality guarantee and support.</p>
+        </div>
+
+        <div class="why-card reveal-up">
+          <div class="why-icon-wrap"><i class="fas fa-users-cog"></i></div>
+          <h3>Experienced Team</h3>
+          <p>Our skilled team brings over a decade of electrical expertise to every project.</p>
+        </div>
+
+        <div class="why-card reveal-up delay-1">
+          <div class="why-icon-wrap"><i class="fas fa-store"></i></div>
+          <h3>Wholesale & Retail</h3>
+          <p>Flexible buying options for individual homeowners, contractors, and bulk buyers.</p>
+        </div>
+
+        <div class="why-card reveal-up delay-2">
+          <div class="why-icon-wrap"><i class="fas fa-tags"></i></div>
+          <h3>Affordable Pricing</h3>
+          <p>Premium quality at competitive market rates â€” maximum value, zero compromise.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       BRAND PARTNERS
+  ============================= -->
+  <section id="brands">
+    <div class="section-container">
+      <div class="section-tag reveal-up">Trusted Brands</div>
+      <h2 class="section-title reveal-up">
+        Our <span class="gold-gradient">Premium Partners</span>
+      </h2>
+      <p class="section-sub reveal-up">Authorised dealer of India's most trusted electrical brands.</p>
+
+      <div class="marquee-wrapper reveal-up">
+        <div class="marquee-track">
+          <!-- Repeated twice for seamless loop -->
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">J</div>
+              <span>Jaquar</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">L</div>
+              <span>Legrand</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">P</div>
+              <span>Polycab</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">K</div>
+              <span>KEI</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">S</div>
+              <span>Schneider Electric</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">L</div>
+              <span>Lauritz Knudsen</span>
+            </div>
+          </div>
+          <!-- Duplicate -->
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">J</div>
+              <span>Jaquar</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">L</div>
+              <span>Legrand</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">P</div>
+              <span>Polycab</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">K</div>
+              <span>KEI</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">S</div>
+              <span>Schneider Electric</span>
+            </div>
+          </div>
+          <div class="brand-item">
+            <div class="brand-card glass-card">
+              <div class="brand-initial">L</div>
+              <span>Lauritz Knudsen</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       GALLERY SECTION
+  ============================= -->
+  <section id="gallery">
+    <div class="gallery-bg-glow"></div>
+    <div class="section-container">
+      <div class="section-tag reveal-up">Our Work</div>
+      <h2 class="section-title reveal-up">
+        Light Up Your <span class="gold-gradient">World</span>
+      </h2>
+      <p class="section-sub reveal-up">A glimpse of the spaces we've transformed with premium electrical and lighting solutions.</p>
+
+      <div class="gallery-grid">
+        <!-- Using CSS-generated gradient placeholders styled like premium product images -->
+        <div class="gallery-item reveal-up item-large">
+          <div class="gallery-img gi-1"></div>
+          <div class="gallery-overlay"><span>Luxury Chandelier</span></div>
+        </div>
+        <div class="gallery-item reveal-up delay-1">
+          <div class="gallery-img gi-2"></div>
+          <div class="gallery-overlay"><span>Smart Switches</span></div>
+        </div>
+        <div class="gallery-item reveal-up delay-2">
+          <div class="gallery-img gi-3"></div>
+          <div class="gallery-overlay"><span>LED Panel Lighting</span></div>
+        </div>
+        <div class="gallery-item reveal-up">
+          <div class="gallery-img gi-4"></div>
+          <div class="gallery-overlay"><span>Premium Wiring</span></div>
+        </div>
+        <div class="gallery-item reveal-up delay-1 item-tall">
+          <div class="gallery-img gi-5"></div>
+          <div class="gallery-overlay"><span>MCB Distribution</span></div>
+        </div>
+        <div class="gallery-item reveal-up delay-2">
+          <div class="gallery-img gi-6"></div>
+          <div class="gallery-overlay"><span>Pendant Lights</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       CONTACT SECTION
+  ============================= -->
+  <section id="contact">
+    <div class="contact-bg-glow"></div>
+    <div class="section-container">
+      <div class="section-tag reveal-up">Reach Us</div>
+      <h2 class="section-title reveal-up">
+        Let's <span class="gold-gradient">Connect</span>
+      </h2>
+      <div class="contact-grid">
+
+        <!-- Left: Info -->
+        <div class="contact-info reveal-left">
+          <div class="contact-info-card glass-card">
+            <h3><i class="fas fa-map-marker-alt"></i> Our Location</h3>
+            <p>169, Prakash Nagar, Near Yamuna Colony,<br/>Govind Garh, Dehradun, Uttarakhand</p>
+          </div>
+          <div class="contact-info-card glass-card">
+            <h3><i class="fas fa-phone-alt"></i> Phone Numbers</h3>
+            <a href="tel:8126161656" class="contact-link">+91 81261 61656</a>
+            <a href="tel:9084061656" class="contact-link">+91 90840 61656</a>
+          </div>
+          <div class="contact-info-card glass-card">
+            <h3><i class="fas fa-envelope"></i> Email Address</h3>
+            <a href="mailto:vkenterprises251123@gmail.com" class="contact-link">vkenterprises251123@gmail.com</a>
+          </div>
+          <div class="contact-info-card glass-card instagram-card">
+            <h3><i class="fab fa-instagram"></i> Instagram</h3>
+            <a href="https://www.instagram.com/your-instagram-username/" target="_blank" rel="noopener" class="contact-link instagram-link">@your-instagram-username</a>
+          </div>
+          <div class="contact-quick-btns">
+            <a href="tel:8126161656" class="btn-primary">
+              <i class="fas fa-phone"></i> Call Now
+            </a>
+            <a href="https://wa.me/918126161656?text=Hi%20VK%20Enterprises%2C%20I%20need%20electrical%20services" target="_blank" class="btn-whatsapp">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://www.instagram.com/your-instagram-username/" target="_blank" rel="noopener" class="btn-instagram">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+          </div>
+
+          <!-- Map embed -->
+          <div class="map-embed reveal-up">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1721.9511721781366!2d78.02742246146906!3d30.32529545034929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1779262169047!5m2!1sen!2sin"
+              width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="VK Enterprises Location">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-form-wrap reveal-right">
+          <div class="contact-form glass-card">
+            <h3>Send Us a Message</h3>
+            <div class="form-group">
+              <input type="text" id="fname" placeholder="Your Full Name" autocomplete="off" />
+              <label for="fname">Full Name</label>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="fphone" placeholder="Your Phone Number" autocomplete="off" />
+              <label for="fphone">Phone Number</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="femail" placeholder="Your Email Address" autocomplete="off" />
+              <label for="femail">Email Address</label>
+            </div>
+            <div class="form-group">
+              <select id="fservice">
+                <option value="">Select Service</option>
+                <option>Decorative Lights</option>
+                <option>Electrical Switches</option>
+                <option>Wiring Solutions</option>
+                <option>MCB Distribution Boxes</option>
+                <option>Home Installation</option>
+                <option>Commercial Electrical Work</option>
+                <option>Other</option>
+              </select>
+              <label for="fservice">Service Needed</label>
+            </div>
+            <div class="form-group">
+              <textarea id="fmsg" rows="4" placeholder="Your Message..."></textarea>
+              <label for="fmsg">Message</label>
+            </div>
+            <button class="btn-primary full-btn" id="sendBtn" onclick="submitForm()">
+              <i class="fas fa-paper-plane"></i> Send Message
+              <span class="btn-glow"></span>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-check-circle"></i> Thank you! We'll contact you shortly.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+  ============================= -->
+  <footer id="footer">
+    <div class="footer-glow"></div>
+    <div class="footer-top">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-vk">VK</span>
+            <span class="logo-ent">Enterprises</span>
+          </div>
+          <p class="footer-tagline">"Decor &amp; Brighten Your Dream Home"</p>
+          <p class="footer-desc">Dehradun's trusted supplier of premium electrical and decorative lighting solutions. Authorised dealer for Jaquar, Legrand, Polycab, KEI, Schneider Electric &amp; Lauritz Knudsen.</p>
+          <div class="footer-social">
+            <a href="https://wa.me/918126161656" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:vkenterprises251123@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:8126161656" aria-label="Phone"><i class="fas fa-phone"></i></a>
+            <a href="https://www.instagram.com/vkent1993?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#why">Why Choose Us</a></li>
+            <li><a href="#brands">Brand Partners</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Decorative Lights</a></li>
+            <li><a href="#services">Electrical Switches</a></li>
+            <li><a href="#services">Wiring Solutions</a></li>
+            <li><a href="#services">MCB Distribution</a></li>
+            <li><a href="#services">Home Installation</a></li>
+            <li><a href="#services">Commercial Work</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p><i class="fas fa-map-marker-alt"></i> 169, Prakash Nagar, Govind Garh, Dehradun</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:8126161656">+91 81261 61656</a></p>
+          <p><i class="fas fa-phone"></i> <a href="tel:9084061656">+91 90840 61656</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:vkenterprises251123@gmail.com">vkenterprises251123@gmail.com</a></p>
+          <div class="footer-brands-list">
+            <span>Jaquar</span><span>Legrand</span><span>Polycab</span><span>KEI</span><span>Schneider Electric</span><span>Lauritz Knudsen</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-neon-divider"></div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 VK Enterprises. All Rights Reserved. | Designed with <i class="fas fa-heart"></i> for Vishal Kashyap</p>
+    </div>
+  </footer>
+
+  <!-- ============================
+       WHATSAPP FLOATING BUTTON
+  ============================= -->
+  <a href="https://wa.me/918126161656?text=Hi%20VK%20Enterprises%2C%20I%20need%20electrical%20services"
+     target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip">Chat with us!</span>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
