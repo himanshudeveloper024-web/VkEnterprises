@@ -974,11 +974,26 @@ body.section-view section.active-section:not(#hero) {
   mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
   -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
 }
+.brand-group {
+  margin-top: 42px;
+}
+.brand-group-title {
+  margin: 0 0 18px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--gold-light);
+}
 .marquee-track {
   display: flex;
   gap: 24px;
   width: max-content;
-  animation: marqueeScroll 16s linear infinite;
+  animation: marqueeScroll 20s linear infinite;
+}
+.solar-track {
+  animation-duration: 22s;
 }
 .marquee-wrapper:hover .marquee-track { animation-play-state: paused; }
 @keyframes marqueeScroll {
